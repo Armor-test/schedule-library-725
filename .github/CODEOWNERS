@@ -1,0 +1,42 @@
+# CODEOWNERS file for schedule-library-725
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/team-frontend @Armor-test/team-research
+
+# Directory ownership
+/assets/ @Armor-test/grp-integration @Armor-test/dept-api
+/scripts/ @Armor-test/dept-ui @Armor-test/team-reporting @Armor-test/grp-ui
+/pkg/ @Armor-test/dept-reporting @Armor-test/team-logging
+/shared/ @Armor-test/dept-automation @Armor-test/dept-notifications
+/middleware/ @Armor-test/squad-cloud @Armor-test/dept-test
+/pages/ @Armor-test/team-research @Armor-test/grp-reporting @Armor-test/squad-payments
+/ui/ @Armor-test/dept-billing @Armor-test/squad-qa
+/components/ @Armor-test/squad-apps @Armor-test/squad-database
+/public/ @Armor-test/dept-notifications @Armor-test/squad-database @Armor-test/grp-api
+/views/ @Armor-test/dept-billing @Armor-test/dept-api
+/app/ @Armor-test/squad-cloud @Armor-test/team-reporting
+/security/ @Armor-test/team-research @Armor-test/unit-devops @Armor-test/dept-security
+/test/ @Armor-test/dept-identity @Armor-test/dept-data
+/controllers/ @Armor-test/squad-database @Armor-test/dept-identity @Armor-test/dept-api
+
+# File type ownership
+*.tf @Armor-test/squad-ux @Armor-test/dept-ui @Armor-test/unit-test
+*.java @Armor-test/dept-data @Armor-test/team-logging @Armor-test/team-frontend
+*.php @Armor-test/squad-apps @Armor-test/squad-payments @Armor-test/squad-frontend
+*.xml @Armor-test/dept-logging @Armor-test/dept-ui @Armor-test/dept-test
+*.yml @Armor-test/dept-test @Armor-test/grp-storage @Armor-test/dept-logging
+*.ts @Armor-test/squad-database @Armor-test/squad-performance
+*.rb @Armor-test/team-core @Armor-test/dept-security
+*.scss @Armor-test/unit-devops @Armor-test/squad-tooling
+*.md @Armor-test/team-security @Armor-test/dept-data @Armor-test/team-logging
+*.html @Armor-test/dept-data @Armor-test/squad-database
+*.properties @Armor-test/dept-logging @Armor-test/unit-governance @Armor-test/team-governance
+*.ini @Armor-test/squad-performance @Armor-test/dept-reporting
+*.json @Armor-test/squad-performance @Armor-test/dept-release
+*.cpp @Armor-test/dept-data @Armor-test/squad-cache @Armor-test/dept-ui
+*.c @Armor-test/dept-data @Armor-test/squad-cloud @Armor-test/unit-design
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
